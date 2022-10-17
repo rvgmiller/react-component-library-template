@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "Template for a React component library",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
     "test": "jest",
     "prettier": "prettier --write .",
     "prepare": "husky install",
