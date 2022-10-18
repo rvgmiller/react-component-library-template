@@ -1,6 +1,6 @@
 {
   "name": "@rvgmiller/react-component-library-template",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Template for a React component library",
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
